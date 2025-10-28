@@ -16,29 +16,8 @@ Validação: Verifica se o número da mesa é válido e se a mesa já está ocup
 
 O projeto é modelado em três classes principais, seguindo o princípio da Composição:
 
-Classe
+<img width="944" height="92" alt="image" src="https://github.com/user-attachments/assets/7516d74d-91ed-453b-a2f1-899f9bafd27c" />
 
-Responsabilidade
-
-Composição
-
-Restaurante
-
-Gerencia e inicializa o conjunto de mesas (Mesa[]). Responsável por buscar e exibir o status geral.
-
-Contém um array de objetos Mesa.
-
-Mesa
-
-Representa uma única mesa. Responsável por seu próprio status (EstaDisponivel) e por executar as ações de Reservar e Liberar.
-
-Contém um objeto Cliente (quando reservada).
-
-Cliente
-
-Armazena informações básicas do cliente (Nome).
-
--
 
 🚀 Como Executar
 
